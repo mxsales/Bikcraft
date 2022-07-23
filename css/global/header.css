@@ -15,14 +15,11 @@
   flex-wrap: wrap;
   gap: 40px;
   padding: 16px 0px;
-  font-family: Poppins;
-  font-weight: 500;
-  font-size: 18px;
 }
 
 .header-nav a {
   text-decoration: none;
-  color: #fff;
+  color: var(--c0);
   padding: 16px 0px;
   display: inline-block;
   position: relative;
@@ -35,7 +32,7 @@
   width: 0%;
   height: 2px;
   margin-top: 4px;
-  background: #fff;
+  background: var(--c0);
 }
 
 .header-nav a:hover::after{
@@ -50,10 +47,10 @@
   .header-nav a{
     border-radius: 4px;
     padding: 12px 16px;
-    background-color: #111111;
+    background-color: var(--c11);
   }
   .header-nav a:hover{
-    background-color: #2e2e2e;
+    background-color: var(--c10);
   }
 
   .header-nav a:after{
@@ -68,8 +65,6 @@
   .header-nav a{
     border-radius: 4px;
     padding: 8px 12px;
-    font-size: 14px;
-    
   }
   .header{
     gap: 20px;

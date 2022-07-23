@@ -1,18 +1,15 @@
 .intro-bg{
   background-color: #000;
   box-shadow: inset 0 -120px #fff;
+  margin-bottom: 48px;
+  padding-top: 32px;
 }
 
 .intro{
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin: 0 auto;
   padding: 32px 20px 0px 20px;
+  gap: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  color: #fff;
-  gap: 40px;
-  position: relative;
 }
 
 .intro-conteudo{
@@ -21,44 +18,22 @@
 }
 
 .intro h1{
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 1.125;
   margin-bottom: 32px;
+  color: var(--c0);
 }
 
 .intro p{
-  font-family: Roboto;
-  font-size: 24px;
-  line-height: 1.5;
   margin-bottom: 24px;
-  color: #b2b2b2;
-}
-
-.intro span{
-  color: #ffbb00;
+  color: var(--c5);
 }
 
 .intro img{
+  width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
-
-
-@media (max-width: 1200px){
-  .intro h1{
-    font-size: 48px;
-  }
-  .intro p{
-    font-size: 18px;
-  }
-}
-
 @media (max-width: 800px){
   .intro h1{
-    font-size: 32px;
     margin-bottom: 16px;
   }
   .intro img{
@@ -74,15 +49,13 @@
   }
 
   .intro-bg{
-    background-color: #111111;
+    background-color: var(--c11);
     padding-top: 40px;
     box-shadow: inset 0 -60px;
   }
 }
-
 @media (max-width: 600px){
   .intro a{
     padding: 12px 16px;
-    font-size: 16px;
   }
 }
