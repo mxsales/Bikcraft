@@ -41,8 +41,12 @@
 }
 
 @media (max-width: 800px) {
+  .header{
+    padding-top: 20px;
+  }
   .header-nav{
     gap: 20px;
+
   }
   .header-nav a{
     border-radius: 4px;
@@ -68,15 +72,13 @@
   }
   .header{
     gap: 20px;
+    justify-content: center;
   }
 }
-
 @media (max-width: 430px) {
   .header{
-    justify-content: center;
     padding-top: 20px;
   }
-
   .header-nav{
     justify-content: center;
   }
