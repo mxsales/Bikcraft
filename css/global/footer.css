@@ -1,6 +1,6 @@
 .footer-bg{
   background-color: var(--c12);
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 .footer{
   display: grid;
