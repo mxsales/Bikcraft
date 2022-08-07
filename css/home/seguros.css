@@ -1,5 +1,5 @@
 .seguros-bg {
-  background-color: var(--c12);
+  background-color: var(--c11);
   padding-bottom: 120px;
   padding-top: 80px;
 }
@@ -12,8 +12,12 @@
   gap: 40px;
   align-items: center;
 }
+#seguros-pagina .seguros-bg{
+  padding-top: 0px;
+}
 .plano {
   padding: 32px 32px 32px 60px;
+  background-color: var(--c12);
 }
 .plano h3 {
   margin-bottom: 40px;
@@ -50,5 +54,8 @@
   }
   .seguros-bg h2{
     padding-left: 81px;
+  }
+  .seguros-bg{
+    padding-bottom: 80px;
   }
 }
