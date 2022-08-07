@@ -1,0 +1,121 @@
+.bicicletas-main{
+  padding-bottom: 80px;
+}
+.bicicletas-item-bg{
+  background: linear-gradient(to right, var(--c0) 30%, var(--c12)0%);
+  padding: 60px 0px;
+  margin-top: 60px;
+}
+.bicicletas-item-bg .bicicletas-item{
+  margin-top: 0px;
+}
+.bicicletas-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 60px;
+}
+.bicicletas-item-bg .item-foto::before{
+  content: "R$ 2,299";
+}
+.bicicletas-item:nth-child(3) .item-foto::before{
+  content: "R$ 3,499";
+}
+.item-conteudo{
+  padding-bottom: 12px;
+}
+.item-foto{
+  position: relative;
+}
+.item-foto img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.item-foto::before{
+  content: "R$ 4,999";
+  color: var(--c1);
+  background-color: var(--c12);
+  padding: 8px 16px 8px 8px;
+  position: absolute;
+  display: block;
+  top: 24px;
+  right: 0px;
+  border-radius: 4px 0 0 4px;
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+.item-conteudo h2{
+  margin-bottom: 20px;
+}
+.item-conteudo h2::before{
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: var(--d1);
+  display: block;
+  margin-bottom: 4px;
+}
+.item-conteudo p{
+  margin-bottom: 32px;
+}
+.item-caracteristicas{
+  display: flex;
+  justify-content: space-between;
+}
+.item-caracteristicas li{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.item-caracteristicas ul{
+  display: grid;
+  gap: 16px;
+}
+.item-caracteristicas img{
+  width: 24px;
+  height: 24px;
+}
+.item-caracteristicas .botao-seta{
+  align-self: flex-end;
+}
+.bicicletas-main li:nth-child(2) .item-foto::before{
+  content: "R$ 2299";
+}
+.bicicletas-main li:nth-child(3) .item-foto::before{
+  content: "R$ 3499";
+}
+
+@media(max-width: 800px){
+  .bicicletas-main{
+    padding-bottom: 40px;
+  }
+  .bicicletas-item{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+  }
+  .bicicletas-item-bg{
+    background: none;
+    background-color: var(--c12);
+    margin-top: 40px;
+  }
+  .item-conteudo{
+    padding: 0px;
+  }
+}
+@media(max-width: 600px){
+  .bicicletas-item ul{
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+    font-size: 1rem;
+  }
+  .item-caracteristicas{
+    display: block;
+  }
+}
+
+
+

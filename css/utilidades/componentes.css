@@ -5,7 +5,7 @@
   padding: 0 20px;
 }
 
-.botao,.botao-secundario{
+.botao,.botao-secundario,.botao-seta{
   max-width: max-content;
   background: linear-gradient(180deg, #FFBB00 0%, #E5A40B 100%);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
@@ -25,6 +25,25 @@
 }
 .botao-secundario:hover{
   background: var(--c9);
+}
+.botao-seta{
+  display: flex;
+  align-items: center;
+}
+.botao-seta::after{
+  content: "";
+  background: url("../../img/icones/seta.svg");
+  margin-left: 12px;
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  transition: transform 0.2s;
+}
+.botao-seta:hover{
+  background: linear-gradient(180deg, #FFBB00 0%, #E59317 100%);
+}
+.botao-seta:hover::after{
+  transform: translateX(4px);
 }
 .link{
   display: inline-block;
