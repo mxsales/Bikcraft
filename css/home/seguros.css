@@ -12,25 +12,46 @@
   gap: 40px;
   align-items: center;
 }
-.plano {
-  padding: 32px 32px 32px 60px;
+.plano-prata {
+  padding: 0px 32px 32px 60px;
 }
-.plano h3 {
+.plano-prata h3 {
   margin-bottom: 40px;
 }
-.plano li {
+.plano-prata li {
   color: var(--c0);
   margin-bottom: 20px;
   font-weight: 500;
   position: relative;
 }
-.plano li::before {
+.plano-prata li::before {
   content: url("../../img/icones/lista.svg");
   display: inline;
   position: absolute;
   left: -21px;
 }
-.plano a {
+.plano-prata a {
+  margin-top: 12px;
+}
+.plano-ouro {
+  padding: 80px 32px 32px 60px;
+}
+.plano-ouro h3 {
+  margin-bottom: 40px;
+}
+.plano-ouro li {
+  color: var(--c0);
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+}
+.plano-ouro li::before {
+  content: url("../../img/icones/lista.svg");
+  display: inline;
+  position: absolute;
+  left: -21px;
+}
+.plano-ouro a {
   margin-top: 12px;
 }
 .plano-preco {
