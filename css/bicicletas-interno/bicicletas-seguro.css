@@ -1,0 +1,42 @@
+.bicicletas-seguro{
+  background-color: var(--c11);
+  box-shadow: inset 0 120px #fff;
+  padding-bottom: 60px;
+}
+.bicicletas-seguro-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.bicicletas-seguro-grid img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bicicletas-seguro-descricao{
+  padding-top: 180px;
+  padding-bottom: 60px;
+}
+.bicicletas-seguro-descricao h2{
+  margin-bottom: 32px;
+}
+.bicicletas-seguro-descricao p{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px){
+  .bicicletas-seguro-grid{
+    grid-template-columns: 1fr;
+  }
+  .bicicletas-seguro-grid img{
+    height: 300px;
+  }
+  .bicicletas-seguro-descricao{
+    grid-row: 1;
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  .bicicletas-seguro{
+    box-shadow: none;
+  }
+}

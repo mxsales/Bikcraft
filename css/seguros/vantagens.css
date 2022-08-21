@@ -2,6 +2,7 @@
   background-color: var(--c12);
 }
 .vantagens{
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .vantagens h1{
@@ -19,6 +20,7 @@
 
 @media(max-width: 800px){
   .vantagens{
+    padding-top: 60px;
     padding-bottom: 60px;
   }
   .vantagens h2{
