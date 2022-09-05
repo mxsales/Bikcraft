@@ -4,7 +4,6 @@
   padding: 0px 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +32,9 @@
   height: 2px;
   margin-top: 4px;
   background: var(--c0);
+}
+.header-nav a.ativo:after{
+  width: 100%;
 }
 
 .header-nav a:hover::after{
