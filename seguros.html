@@ -8,9 +8,10 @@
   <title>Seguros | Bikcraft</title>
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <header>
@@ -34,7 +35,7 @@
     </div>
     <div class="seguros-bg">
       <div class="seguros container">
-        <div class="plano">
+        <div class="plano fadeInRight" data-anime="200">
           <div class="plano-preco">
             <h3 class="cor6 font-1-xl">PRATA</h3>
             <div class="valor">
@@ -50,7 +51,7 @@
           </ul>
           <a href="./orcamento.html" class="botao-secundario">inscreva-se</a>
         </div>
-        <div class="plano">
+        <div class="plano fadeInRight" data-anime="500">
           <div class="plano-preco">
             <h3 class="cor13 font-1-xl">OURO</h3>
             <div class="valor">
@@ -202,6 +203,8 @@
     </div>
     <p class="font-2-m container cor6">Bikcraft © Alguns direitos reservados.</p>
   </footer>
+
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 </html>

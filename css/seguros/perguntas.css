@@ -45,13 +45,13 @@
 .perguntas button[aria-expanded = "true"]::after{
   transform: none;
 }
-.perguntas dd{
+.js .perguntas dd{
   padding-left: 16px;
   padding-top: 16px;
   max-width: 80ch;
   display: none;
 }
-.perguntas dd.ativoResposta{
+.js .perguntas dd.ativoResposta{
   display: block;
 }
 

@@ -31,3 +31,9 @@ function cliquePerguntas(item){
 }
 
 lista.forEach(cliquePerguntas);
+
+//PLUGIN ANIMAÇÕES
+
+if(window.SimpleAnime){
+  new SimpleAnime();
+}
